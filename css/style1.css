@@ -1,0 +1,652 @@
+/*nav bar styling*/
+#select{
+    float: right;
+}
+   #header-nav {
+   background-color: #000000;
+   border-radius: 0;
+   border: 0;
+}
+   #division{
+	background-color:#610B21; 
+}
+  body{
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif; 
+}
+
+#navi{
+	background-color: #610B21;
+}
+
+/*end of mav bar*/
+.video{
+    	margin-left: 10px;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	margin-right: 10px;
+    	float: left;
+    }
+a:hover, a:focus {
+	text-decoration:none;
+}
+#level{
+	height: 428px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 23%;
+    float: left;
+	border-style: solid;
+	background-image: url("https://www.onlineuniversities.com/wp-content/uploads/2011/08/research-sm.jpeg");
+	text-decoration:none;
+	border-color: #000000;
+}
+#level1{
+	height: 428px;
+	margin-top: 10px;
+	width: 23%;
+	margin-right: 10px;
+	border-style: solid;
+	background: url("https://thenypost.files.wordpress.com/2018/09/090718-fake-award-ceremony.jpg?quality=90&strip=all&w=1200") no-repeat;
+	float: right;
+	border-color: #000000;
+}
+.name{
+	opacity: .75;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	margin-top: 375px;
+	font-size: 20px;
+	width: 100%;
+	background-color: #000000;
+}
+.name1{
+	opacity: .75;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	margin-top: 280px;
+	font-size: 20px;
+	width: 100%;
+	background-color: #000000;
+}
+#middle{
+	width: 60%;
+	height: 31%;
+	margin-top: 20px;
+}
+#levell{
+	height:329px;
+	width: 32%;
+	max-width: 32%;
+	border-style: solid;
+	float: left;
+	margin:10px 10px 10px 10px;
+	background:url("../images/over.png");
+	border-color: #000000;
+}
+#level2{
+	height:329px;
+	width: 31%;
+	max-width: 31%;
+	border-style: solid;
+	float: left;
+	margin-top: 10px;
+	margin:10px 10px 10px 10px;
+	margin-bottom: 10px;
+	background: url("https://th.bing.com/th/id/OIP.f2t2367FLnLr4WTNTewSJAHaEg?pid=Api&rs=1") no-repeat;
+	border-color: #000000;
+}
+#level3{
+	height:329px;
+	width: 32%;
+	max-width: 32%;
+	border-style: solid;
+	float: right;
+	margin:10px 10px 10px 10px;
+	background: url("../gifs/hi.gif") no-repeat;
+	border-color: #000000;
+}
+/* media queries*/
+@media (min-width: 1200px){
+#aboutl{
+	display: none;
+}
+#about{
+	display: none;
+}
+#image{
+	height: 150px;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+#button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 20px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+.title{
+    text-shadow: 2em;
+	font-size: 5.5em;
+    height: 150px;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 10px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    margin-right: 100px;
+}
+#button a:hover, #button a:focus {
+  text-decoration: none;
+}
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 30px; 
+  /* change this to change the size*/
+  
+}
+.spa{
+	position:relative;
+	font-size:1em ;
+	font-color:#000000;
+	margin-top: 10px;
+}
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
+img{
+	margin:10px 10px 10px 10px;
+}
+#aboutl{
+	display: none;
+}
+#select{
+	display: none;
+}
+#about{
+	display: all;
+}
+#image{
+	height: 100px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+.title{
+    text-shadow: 2em;
+	font-size: 4.5em;
+    height: 150px;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 10px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+    font-family: 'Lobster', cursive;
+    margin-right: 100px;
+}
+#level{
+	width: 48%;
+	max-width: 48%;
+}
+#level1{
+	width: 48%;
+	max-width: 48%;
+}
+.video{
+	width: 98%;
+	max-width: 98%;
+}
+#levell{
+	width: 31%;
+	max-width: 31%;
+}
+#level2{
+	width: 31%;
+	max-width: 31%;
+}
+#level3{
+	width: 31%;
+	max-width: 31%;
+}
+/* DROPDOWN */
+/* new dropdown */
+#drop{
+	font-size: 1em;
+	color: #000000;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#dropbtn {
+     
+    padding: 16px;
+    font-size: 16px;
+    background-color: none;
+    color: #000000;
+    border: none;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    float: left;
+    position: absolute;
+    background-color: #610B21;
+    width:150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block; width: 100%;}
+.dropdown:hover #dropbtn {background-color: black;}
+/*END OF DROPDOWN*/
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 35px; 
+  /* change this to change the size*/
+  
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ #aboutl{
+    display: all;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+ }
+ #select{
+ 	display: none;
+ }
+ #image{
+ 	display: none;
+ }
+ #about{
+ 	display: all;
+ }
+ /* DROPDOWN */
+/* new dropdown */
+#drop{
+	font-size: 1em;
+	color: #000000;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#dropbtn {
+     
+    padding: 16px;
+    font-size: 16px;
+    background-color: none;
+    color: #000000;
+    border: none;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #610B21;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover #dropbtn {background-color: black;}
+/*END OF DROPDOWN*/
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 35px; 
+  /* change this to change the size*/
+  
+}
+#level{
+	width: 48%;
+	max-width: 48%;
+}
+#level1{
+	width: 48%;
+	max-width: 48%;
+}
+.video{
+	width: 98%;
+	max-width: 98%;
+}
+#levell{
+	width: 98%;
+	max-width: 98%;
+	background:url("../images/over.png");
+}
+#level2{
+	width: 48%;
+	max-width: 48%;
+}
+#level3{
+	width: 47%;
+	max-width: 47%;
+}
+.title{
+    text-shadow: 2em;
+	font-size: 3em;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+    margin-right: 120px;
+    font-family: "Ink Free";
+}
+}
+@media (max-width: 767px) {
+
+#aboutl{
+    display: all;
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+ }
+ #select{
+ 	display: none;
+ }
+ #image{
+ 	display: none;
+ }
+ #about{
+ 	display: all;
+ }
+ /* DROPDOWN */
+/* new dropdown */
+#drop{
+	font-size: 0.75em;
+	color: #000000;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 45px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#dropbtn {
+     
+    padding: 16px;
+    font-size: 16px;
+    background-color: none;
+    color: #000000;
+    border: none;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #610B21;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover #dropbtn {background-color: black;}
+/*END OF DROPDOWN*/
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 35px; 
+  /* change this to change the size*/
+  
+}
+#level{
+	width: 48%;
+	max-width: 48%;
+}
+#level1{
+	width: 48%;
+	max-width: 48%;
+}
+.video{
+	width: 98%;
+	max-width: 98%;
+}
+#levell{
+	width: 98%;
+	max-width: 98%;
+	background:url("../images/over.png");
+}
+#level2{
+	width: 47%;
+	max-width: 47%;
+}
+#level3{
+	width: 47%;
+	max-width: 47%;
+}
+.title{
+    text-shadow: 1em;
+	font-size: 3em;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 20px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+    margin-right: 0px;
+    font-family: "Ink Free";
+}
+}
+@media (max-width: 479px) {
+
+#aboutl{
+    display: all;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+ }
+ #select{
+ 	display: none;
+ }
+ #image{
+ 	display: none;
+ }
+ #about{
+ 	display: all;
+ }
+ /* DROPDOWN */
+/* new dropdown */
+#drop{
+	font-size: 0.55em;
+	color: #000000;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#dropbtn {
+    font-size: 16px;
+    background-color: none;
+    color: #000000;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #610B21;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover #dropbtn {background-color: black;}
+/*END OF DROPDOWN*/
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 35px; 
+  /* change this to change the size*/
+  
+}
+#level{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#level1{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.video{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#levell{
+	width: 98%;
+	max-width: 98%;
+	background:url("../images/over.png");
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#level2{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#level3{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.title{
+    text-shadow: 1em;
+	font-size: 2em;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+    margin-right: 0px;
+    font-family: "Ink Free";
+}
+#middle{
+	width: 98%;
+}
+}
