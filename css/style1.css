@@ -323,16 +323,6 @@ img{
     margin-bottom: 10px;
     cursor: pointer;
 }
-#dropbtn {
-     
-    padding: 16px;
-    font-size: 16px;
-    background-color: none;
-    color: #000000;
-    border: none;
-    
-}
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -400,9 +390,9 @@ img{
 	float: left;
 	color: #FFFFFF;
     margin-top: 20px;
-	margin-left: 100px;
+	margin-left: 40px;
 	margin-bottom: 10px;
-    margin-right: 120px;
+    margin-right: 40px;
     font-family: "Ink Free";
 }
 }
