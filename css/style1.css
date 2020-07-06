@@ -141,11 +141,11 @@ a:hover, a:focus {
 }
 .title{
     text-shadow: 2em;
-	font-size: 5.5em;
-    height: 150px;
+	font-size: 4.75em;
+    height: 0px;
 	float: left;
 	color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: 20px;
 	margin-left: 100px;
 	margin-bottom: 10px;
     font-family: 'Lobster', cursive;
@@ -175,9 +175,6 @@ a:hover, a:focus {
 
 }
 @media (min-width: 992px) and (max-width: 1199px){
-img{
-	margin:10px 10px 10px 10px;
-}
 #aboutl{
 	display: none;
 }
@@ -197,8 +194,7 @@ img{
 }
 .title{
     text-shadow: 2em;
-	font-size: 4.5em;
-    height: 150px;
+	font-size: 4em;
 	float: left;
 	color: #FFFFFF;
     margin-top: 10px;
@@ -396,7 +392,7 @@ img{
     font-family: "Ink Free";
 }
 }
-@media (min-width: 480px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
 #aboutl{
     display: all;
@@ -512,16 +508,11 @@ img{
     font-family: "Ink Free";
 }
 }
-@media (max-width: 479px) {
+
+@media(max-width: 479px) {
 
 #aboutl{
-    display: all;
-    height: 50px;
-    width: 50px;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    float: left;
+    display: none;
  }
  #select{
  	display: none;
@@ -627,7 +618,224 @@ img{
 }
 .title{
     text-shadow: 1em;
+	font-size: 1.5em;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 15px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+    margin-right: 80px;
+    font-family: "Ink Free";
+}
+#middle{
+	width: 98%;
+}
+}
+@media (min-width: 480px) and (max-width: 737px) {
+  
+.title{
+    text-shadow: 1em;
 	font-size: 2em;
+	float: left;
+	color: #FFFFFF;
+    margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+    margin-right: 20px;
+    font-family: "Ink Free";
+}
+#middle{
+	width: 98%;
+}
+#aboutl{
+    display: all;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+ }
+ #select{
+ 	display: none;
+ }
+ #image{
+ 	display: none;
+ }
+ #about{
+ 	display: all;
+ }
+ /* DROPDOWN */
+/* new dropdown */
+#drop{
+	font-size: 0.55em;
+	color: #000000;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 35px;
+    margin-left: 65px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#dropbtn {
+    font-size: 16px;
+    background-color: none;
+    color: #000000;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #610B21;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover #dropbtn {background-color: black;}
+/*END OF DROPDOWN*/
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 35px; 
+  /* change this to change the size*/
+
+
+}
+@media (max-width: 458px){
+#aboutl{
+    display: none;
+   /* height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;*/
+ }
+ #select{
+ 	display: none;
+ }
+ #image{
+ 	display: none;
+ }
+ #about{
+ 	display: all;
+ }
+ /* DROPDOWN */
+/* new dropdown */
+#drop{
+	font-size: 0.55em;
+	color: #000000;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#dropbtn {
+    font-size: 16px;
+    background-color: none;
+    color: #000000;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #610B21;
+    min-width: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: black;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover #dropbtn {background-color: black;}
+/*END OF DROPDOWN*/
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  font-size: 35px; 
+  /* change this to change the size*/
+  
+}
+#level{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#level1{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.video{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#levell{
+	width: 98%;
+	max-width: 98%;
+	background:url("../images/over.png");
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#level2{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+#level3{
+	width: 98%;
+	max-width: 98%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.title{
+	font-size: 20px;
 	float: left;
 	color: #FFFFFF;
     margin-top: 10px;
@@ -638,5 +846,6 @@ img{
 }
 #middle{
 	width: 98%;
+
 }
 }
